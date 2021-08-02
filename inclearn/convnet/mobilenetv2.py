@@ -72,7 +72,7 @@ class MobileNetV2(nn.Module):
     def forward(self, x):
         out = F.relu(self.bn1(self.conv1(x)))
         out_attention = self.layers(out)
-        out = F.relu(self.bn2(self.conv2(out_attention)))
+        out = self.bn2(self.conv2(out_attention))
         # NOTE: change pooling kernel_size 7 -> 4 for CIFAR10
         # out = F.avg_pool2d(out, 4)
         # out = out.view(out.size(0), -1)
