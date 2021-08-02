@@ -1,6 +1,6 @@
 # Incremental Learning in the Mobile Scenario
 
-This is the main repository for the master's thesis *Incremental Learning in the Mobile Scenario*.
+This is the main repository for the master's thesis [*Incremental Learning in the Mobile Scenario*](https://drive.google.com/file/d/1lnJQM0NVPYmgoMCZB_rPu4YcMiRR4PRB/view?usp=sharing).
 
 
 
@@ -25,7 +25,7 @@ If  `conda` is not installed yet, please install `Miniconda` or `Anaconda` first
 
 This pipeline was tested and run on `Ubuntu` and `Windows WSL`. 
 
-When you install the requirements on other OS, If you encounter `ResolvePackageNotFound` error, please first comment these packages in `envrionment.yml` and try again.
+When you install the requirements on other OS, if you encounter `ResolvePackageNotFound` error, please first comment these packages in `envrionment.yml` and try again.
 
 1. Change the working directory to the root of the project directory.
 
